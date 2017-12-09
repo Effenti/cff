@@ -1,0 +1,36 @@
+.pagination {
+    font-size: 14px;
+    line-height: 1.5;
+    color: $textPrimary;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pagination-item {
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    min-width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid $defaultBorderColor;
+    background-color: $white;
+    margin-right: 8px;
+    margin-bottom: 12px;
+    font-family: Arial;
+    outline: 0;
+}
+
+.pagination-item-active {
+    background-color: $primary;
+    border-color: $primary;
+    color: $white;
+}

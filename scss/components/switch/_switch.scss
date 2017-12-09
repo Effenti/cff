@@ -1,0 +1,50 @@
+.switch {
+    font-size: 14px;
+    line-height: 1.5;
+    color: $textPrimary;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    height: 22px;
+    min-width: 44px;
+    line-height: 20px;
+    vertical-align: middle;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    -webkit-transition: all 0.36s;
+    transition: all 0.36s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    &:after {
+        box-shadow: 0 2px 4px 0 rgba(0, 35, 11, 0.2);
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 1px;
+        top: 1px;
+        border-radius: 18px;
+        background-color: $white;
+        content: " ";
+        cursor: pointer;
+        -webkit-transition: all 0.36s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+        transition: all 0.36s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+    }
+}
+
+.switch-inner {
+    color: $white;
+    font-size: 12px;
+    margin-left: 24px;
+    margin-right: 6px;
+    display: block;
+}
+
+.switch-checked {
+    background-color: $primary;
+}

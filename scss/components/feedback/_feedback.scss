@@ -1,0 +1,32 @@
+.feedback {
+    position: relative;
+    padding: 18px 32px;
+    background-color: $white;
+    -webkit-transition: background-color 0.4s;
+    transition: background-color 0.4s;
+    font-size: 14px;
+    border: 1px solid $defaultBorderColor;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 0 0 16px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    width: 100%;
+    border-left: $feedbackBorderWidth solid $default;
+}
+
+.feedback-primary {
+    border-left: $feedbackBorderWidth solid $primary;
+}
+
+.feedback-alert {
+    border-left: $feedbackBorderWidth solid $alert;
+}
+
+.feedback-success {
+    border-left: $feedbackBorderWidth solid $success;
+}
+
+.feedback-danger {
+    border-left: $feedbackBorderWidth solid $danger;
+}

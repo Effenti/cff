@@ -1,0 +1,25 @@
+.box {
+    position: relative;
+    padding: 18px 32px;
+    background-color: $white;
+    -webkit-transition: background-color 0.4s;
+    transition: background-color 0.4s;
+    font-size: 14px;
+    border: 1px solid $defaultBorderColor;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 0 0 16px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.box-title {
+    position: absolute;
+    top: -14px;
+    padding: 1px 8px;
+    margin-left: -8px;
+    color: $textPrimary;
+    border-radius: 2px 2px 0 0;
+    -webkit-transition: background-color 0.4s;
+    transition: background-color 0.4s;
+} 

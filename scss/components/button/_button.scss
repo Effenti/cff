@@ -1,0 +1,50 @@
+.button {
+    padding: 10px 20px;
+    outline: 0;
+    font-size: 16px;
+    border-radius: $borderRadius;
+    -webkit-appearance: button;
+    line-height: 1.5;
+    list-style: none;
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    line-height: 1.15;
+    padding: 0 15px;
+    font-size: 14px;
+    height: 32px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    position: relative;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: $white;
+    border-color: $defaultBorderColor;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.button-primary {
+    background-color: $primary;
+    border-color: $primaryBorderColor;
+    color: $white;
+}
+
+.button-dashed {
+    color: $textPrimary;
+    background-color: $white;
+    border-color: $defaultBorderColor;
+    border-style: dashed;
+}
