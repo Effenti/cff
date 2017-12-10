@@ -11,6 +11,9 @@
         float: left;
         margin-left: -1px;
         margin-bottom: 12px;
+        &:hover {
+            z-index: 2;
+        }
         &:first-child {
             border-top-left-radius: $borderRadius;
             border-bottom-left-radius: $borderRadius;
@@ -26,8 +29,8 @@
         }
     }
     .button-selected {
-        background-color: $primary;
-        color: $white;
+        background-color: $white;
+        color: $primary;
         margin-right: -1px;
         border-color: $primary;
         z-index: 2;
